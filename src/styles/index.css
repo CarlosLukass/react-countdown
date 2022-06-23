@@ -1,12 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-/* 
+.timer-container{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
 
-*/
+.timer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: rgb(13, 13, 13);
+    margin: 20px;
+    padding: 40px 30px;
+    border-radius: 10px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.clock-icon{
+    margin: 0px !important;
+    padding: 55px 20px !important;
+    margin-right: 20px !important;
+}
+
+.timer>div>h4{
+    font-size: 4rem;
+}
